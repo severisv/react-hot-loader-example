@@ -1,0 +1,18 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-react",
+        "tslint-config-airbnb",
+        "tslint-config-prettier"
+    ],
+    "rules": {
+        "interface-name": ["never-prefix"],
+        "jsx-no-lambda": false,
+        "member-access": false,
+        "variable-name": false,
+        "ordered-imports": true,
+        "import-name": false,
+        "object-literal-sort-keys": false,
+        "object-shorthand-properties-first": false
+    }
+}
