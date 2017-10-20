@@ -13,6 +13,7 @@ module.exports = {
     output: {
         path: path.resolve("../dist"),
         filename: "[name].js",
+        publicPath: '/'
     },
     devtool: "source-map",
     resolve: {
